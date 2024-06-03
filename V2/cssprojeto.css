@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegation{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(74, 82, 192);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+
+nav li{
+    padding-right: 20px;
+    list-style: none;
+}
+
+.titulo{
+    font-size: larger;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
+
+.corpo{
+    background-color: rgb(45, 63, 124);
+    background-image: url("https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGFwcHklMjBzdHVkZW50c3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    font-style: italic;
+    color: antiquewhite;
+    box-shadow: inset 0 0 0 1000px rgba(35, 39, 92, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.perigo{
+    width: 1180px;
+    height: 400px;
+}
+
+footer{
+    padding-top: 15px;
+    background-color: rgb(74, 82, 192);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape{
+    font-size: larger;
+    align-items: center;
+    margin-left: 10px;
+    display: flex;
+}
+
+.rodape a{
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+
+
+.rodape h5 {
+    margin-left: 1590px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+
